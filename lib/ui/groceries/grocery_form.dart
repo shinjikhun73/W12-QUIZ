@@ -47,6 +47,8 @@ class _NewItemState extends State<NewItem> {
 
   void onAdd() {
     // Will be implemented later - Create and return the new grocery
+    final name = _nameController.text.trim();
+    final quantity = int.tryParse
   }
 
   @override
